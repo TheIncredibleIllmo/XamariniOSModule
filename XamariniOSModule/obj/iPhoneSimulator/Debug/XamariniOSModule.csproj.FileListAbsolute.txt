@@ -1,0 +1,12 @@
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/bin/iPhoneSimulator/Debug/XamariniOSModule.exe
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/bin/iPhoneSimulator/Debug/XamariniOSModule.pdb
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/actool/_PartialAppManifest.items
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/coremlc/_PartialAppManifest.items
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.1/optimized/
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/XamariniOSModule.csprojAssemblyReference.cache
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/XamariniOSModule.csproj.CoreCompileInputs.cache
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/XamariniOSModule.exe
+/Users/eduardomedina/Projects/XamariniOSModule/XamariniOSModule/obj/iPhoneSimulator/Debug/XamariniOSModule.pdb
