@@ -116,9 +116,14 @@
     </Compile>
     <Compile Include="TableSources\EmailTableViewSource.cs" />
     <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="ViewControllers\EmailsDetailViewController.cs" />
+    <Compile Include="ViewControllers\EmailsDetailViewController.designer.cs">
+      <DependentUpon>EmailsDetailViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\words.txt" />
+    <BundleResource Include="Resources\photo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -10,3 +10,4 @@
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.exe
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.pdb
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.csprojAssemblyReference.cache
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/optimized/photo.png

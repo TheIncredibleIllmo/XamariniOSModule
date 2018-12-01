@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{86054340-ADE6-4FB3-9B98-72BB4ADD8FD1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/ViewControllers/EmailsViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/ViewControllers/EmailsDetailViewController.cs">
     <Files>
       <File FileName="iOSTableView/Main.storyboard" />
-      <File FileName="iOSTableView/TableSources/EmailTableViewSource.cs" Line="17" Column="16" />
-      <File FileName="iOSTableView/ViewControllers/EmailsViewController.cs" Line="59" Column="13" NotebookId="1" />
+      <File FileName="iOSTableView/ViewControllers/EmailsDetailViewController.cs" Line="69" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsViewController.cs" relfile="iOSTableView/ViewControllers/EmailsViewController.cs" line="60" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/TableSources/EmailTableViewSource.cs" relfile="iOSTableView/TableSources/EmailTableViewSource.cs" line="108" column="60" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

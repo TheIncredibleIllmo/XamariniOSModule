@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Foundation;
 using iOSTableView.Helpers;
 using UIKit;
@@ -34,7 +35,7 @@ namespace iOSTableView.TableSources
             if (cell == null)
             {
                 cell = new UITableViewCell(UITableViewCellStyle.Subtitle, Constants.EmailCellReusableKey);
-                cell.Accessory = UITableViewCellAccessory.DisclosureIndicator;
+                cell.Accessory = UITableViewCellAccessory.DetailDisclosureButton;
                 cell.DetailTextLabel.TextColor = UIColor.Purple;
                 cell.SelectionStyle = UITableViewCellSelectionStyle.None;
             }
@@ -62,6 +63,55 @@ namespace iOSTableView.TableSources
             //section: the area in the tableview that we are interested.
             //nint: is an int of 32 or 64 bits dependin.
             return _emails.Count;
+        }
+        #endregion
+
+        #region EVENT_HANDLERS
+        public override void AccessoryButtonTapped(UITableView tableView, NSIndexPath indexPath)
+        {
+            var email = _emails[indexPath.Row];
+
+            var alertController = UIAlertController.Create(email.From,
+                                                           email.Body,
+                                                           UIAlertControllerStyle.Alert);
+
+            alertController.AddAction(UIAlertAction.Create("Close", UIAlertActionStyle.Destructive, null));
+
+            _emailsViewController.PresentViewController(alertController, true, null);
+        }
+
+        public async override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+        {
+            _activityIndicator.Hidden = false;
+            _activityIndicator.StartAnimating();
+
+            await Task.Delay(3000);
+
+            try
+            {
+                var email = _emails[indexPath.Row];
+
+                var storyBoard = UIStoryboard.FromName("Main", null);
+
+                var emailsDetailViewController = storyBoard?.InstantiateViewController("EmailsDetailViewController")
+                                                            as EmailsDetailViewController;
+
+                if (emailsDetailViewController == null) return;
+
+                emailsDetailViewController.Email = email;
+
+                _emailsViewController.PresentViewController(emailsDetailViewController, true, null);
+            }
+            catch (Exception ex)
+            {
+                _activityIndicator.StopAnimating();
+                _activityIndicator.HidesWhenStopped = true;
+            }
+            finally
+            {
+                _activityIndicator.StopAnimating();
+                _activityIndicator.HidesWhenStopped = true;
+            }
         }
         #endregion
 
