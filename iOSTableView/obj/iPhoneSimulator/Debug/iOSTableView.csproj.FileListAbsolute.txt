@@ -1,0 +1,11 @@
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/bin/iPhoneSimulator/Debug/iOSTableView.exe
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/bin/iPhoneSimulator/Debug/iOSTableView.pdb
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/optimized/
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.csproj.CoreCompileInputs.cache
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.exe
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.pdb

@@ -1,7 +1,8 @@
-﻿<Properties StartupConfiguration="{962BA485-4338-4836-BC58-2ADD4607715E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamariniOSModule/Main.storyboard">
+﻿<Properties StartupConfiguration="{86054340-ADE6-4FB3-9B98-72BB4ADD8FD1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/ViewControllers/EmailsViewController.cs">
     <Files>
-      <File FileName="XamariniOSModule/Main.storyboard" />
+      <File FileName="iOSTableView/Main.storyboard" />
+      <File FileName="iOSTableView/ViewControllers/EmailsViewController.cs" Line="44" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -9,6 +10,9 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.iOSTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E098BB6-4E6D-4614-A1AC-F087205F094B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.iOSTableView>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.XamariniOSModule PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E098BB6-4E6D-4614-A1AC-F087205F094B" />
 </Properties>
