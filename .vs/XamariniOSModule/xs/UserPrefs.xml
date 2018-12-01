@@ -2,12 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/ViewControllers/EmailsViewController.cs">
     <Files>
       <File FileName="iOSTableView/Main.storyboard" />
-      <File FileName="iOSTableView/ViewControllers/EmailsViewController.cs" Line="44" Column="45" />
+      <File FileName="iOSTableView/TableSources/EmailTableViewSource.cs" Line="17" Column="16" />
+      <File FileName="iOSTableView/ViewControllers/EmailsViewController.cs" Line="59" Column="13" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsViewController.cs" relfile="iOSTableView/ViewControllers/EmailsViewController.cs" line="60" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.iOSTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E098BB6-4E6D-4614-A1AC-F087205F094B">

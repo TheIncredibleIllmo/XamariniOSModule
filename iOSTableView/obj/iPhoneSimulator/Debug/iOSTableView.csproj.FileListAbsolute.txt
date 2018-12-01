@@ -9,3 +9,4 @@
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.csproj.CoreCompileInputs.cache
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.exe
 /Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.pdb
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhoneSimulator/Debug/iOSTableView.csprojAssemblyReference.cache

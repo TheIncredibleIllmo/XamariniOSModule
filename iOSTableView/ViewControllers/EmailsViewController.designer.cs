@@ -14,5 +14,8 @@ namespace iOSTableView
     [Register ("EmailsViewController")]
     partial class EmailsViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

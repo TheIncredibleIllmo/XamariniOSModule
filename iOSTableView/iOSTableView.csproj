@@ -114,6 +114,8 @@
     <Compile Include="ViewControllers\EmailsViewController.designer.cs">
       <DependentUpon>EmailsViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableSources\EmailTableViewSource.cs" />
+    <Compile Include="Helpers\Constants.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\words.txt" />

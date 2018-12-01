@@ -1,7 +1,9 @@
 using CoreGraphics;
 using Foundation;
 using iOSTableView.Helpers;
+using iOSTableView.TableSources;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UIKit;
 
@@ -11,8 +13,8 @@ namespace iOSTableView
     {
         #region FIELDS
         UIActivityIndicatorView _activityIndicator;
-
         private EmailServer _emailServer;
+        private UITableView _emailTableView;
         #endregion
 
         #region CONSTRUCTOR
@@ -42,6 +44,18 @@ namespace iOSTableView
             _emailServer = new EmailServer(5);
 
             var emails = _emailServer.Email;
+
+            var source = new EmailTableViewSource((List<EmailItem>)emails, this, _activityIndicator);
+
+            _emailTableView = new UITableView(View.Frame)
+            {
+                Source = source,
+                SeparatorEffect = UIBlurEffect.FromStyle(UIBlurEffectStyle.ExtraLight),
+            };
+
+            View.AddSubview(_emailTableView);
+
+            View.BringSubviewToFront(_activityIndicator);
 
             _activityIndicator.StopAnimating();
             _activityIndicator.HidesWhenStopped = true;
