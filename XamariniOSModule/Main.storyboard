@@ -18,32 +18,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.63529411764705879" green="0.95686274509803926" blue="1" alpha="1"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="218" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="186" y="72" width="88" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="218" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="116" width="103" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1244" firstAttribute="width" constant="103"/>
+                                    <constraint id="1245" firstAttribute="height" constant="26"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="219" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="186" y="171" width="65" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="219" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="45" y="237" width="65" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1253" firstAttribute="height" constant="21"/>
+                                    <constraint id="1254" firstAttribute="width" constant="65"/>
+                                </constraints>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="220" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Fill your name:">
-                                <rect key="frame" x="118" y="113" width="179" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="220" translatesAutoresizingMaskIntoConstraints="NO" text="Fill your name:">
+                                <rect key="frame" x="40" y="162" width="334" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1248" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fill your Age" borderStyle="roundedRect" minimumFontSize="17" id="221" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="278" width="334" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fill your Age" borderStyle="roundedRect" minimumFontSize="17" id="221" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="118" y="212" width="179" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="222" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="118" y="285" width="164" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="222" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="125" y="390" width="164" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.5490196078431373" blue="0.5725490196078431" alpha="1"/>
                                 <state key="normal" title="Button">
@@ -52,8 +63,26 @@
                                 <connections>
                                     <segue id="1027" destination="754" kind="show" identifier="loginDetailsId"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="1264" firstAttribute="height" constant="49"/>
+                                    <constraint id="1265" firstAttribute="width" constant="164"/>
+                                </constraints>
                             </button>
                         </subviews>
+                        <constraints>
+                            <constraint id="1242" firstItem="218" firstAttribute="top" secondItem="211" secondAttribute="bottom" constant="46"/>
+                            <constraint id="1243" firstItem="218" firstAttribute="leading" secondItem="215" secondAttribute="leadingMargin" constant="20"/>
+                            <constraint id="1246" firstItem="220" firstAttribute="top" secondItem="218" secondAttribute="bottom" constant="20"/>
+                            <constraint id="1247" firstItem="220" firstAttribute="leading" secondItem="215" secondAttribute="leadingMargin" constant="20"/>
+                            <constraint id="1250" firstAttribute="trailingMargin" secondItem="220" secondAttribute="trailing" constant="20"/>
+                            <constraint id="1251" firstItem="219" firstAttribute="top" secondItem="220" secondAttribute="bottom" constant="45"/>
+                            <constraint id="1252" firstItem="219" firstAttribute="leading" secondItem="215" secondAttribute="leadingMargin" constant="25"/>
+                            <constraint id="1255" firstItem="221" firstAttribute="top" secondItem="219" secondAttribute="bottom" constant="20"/>
+                            <constraint id="1256" firstItem="221" firstAttribute="leading" secondItem="215" secondAttribute="leadingMargin" constant="20"/>
+                            <constraint id="1257" firstAttribute="trailingMargin" secondItem="221" secondAttribute="trailing" constant="20"/>
+                            <constraint id="1261" firstItem="222" firstAttribute="top" secondItem="221" secondAttribute="bottom" constant="82"/>
+                            <constraint id="1266" firstItem="222" firstAttribute="centerX" secondItem="215" secondAttribute="centerX"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="NameTxt" destination="220" id="name-outlet-220"/>
@@ -93,13 +122,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="962" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="141" y="326" width="132" height="68"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="962" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="260" width="334" height="200"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1516" firstAttribute="height" constant="200"/>
+                                </constraints>
                             </label>
                         </subviews>
+                        <constraints>
+                            <constraint id="1513" firstItem="962" firstAttribute="leading" secondItem="755" secondAttribute="leadingMargin" constant="20"/>
+                            <constraint id="1514" firstAttribute="trailingMargin" secondItem="962" secondAttribute="trailing" constant="20"/>
+                            <constraint id="1515" firstAttribute="centerY" secondItem="962" secondAttribute="centerY" constant="8"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="UserLbl" destination="962" id="name-outlet-962"/>
