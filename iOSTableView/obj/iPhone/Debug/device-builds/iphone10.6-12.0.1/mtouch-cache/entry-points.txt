@@ -1,0 +1,11 @@
+Function=xamarin_timezone_get_data
+	/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip

@@ -1,18 +1,26 @@
 ﻿<Properties StartupConfiguration="{86054340-ADE6-4FB3-9B98-72BB4ADD8FD1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/ViewControllers/EmailsDetailViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSTableView/Info.plist">
     <Files>
       <File FileName="iOSTableView/Main.storyboard" />
-      <File FileName="iOSTableView/ViewControllers/EmailsDetailViewController.cs" Line="69" Column="10" />
+      <File FileName="iOSTableView/ViewControllers/EmailsDetailViewController.cs" Line="77" Column="1" />
+      <File FileName="iOSTableView/Main.cs" Line="12" Column="1" />
+      <File FileName="iOSTableView/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/TableSources/EmailTableViewSource.cs" relfile="iOSTableView/TableSources/EmailTableViewSource.cs" line="108" column="60" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="115" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="124" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="126" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="101" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="77" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/ViewControllers/EmailsDetailViewController.cs" relfile="iOSTableView/ViewControllers/EmailsDetailViewController.cs" line="69" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.iOSTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E098BB6-4E6D-4614-A1AC-F087205F094B">
+  <MonoDevelop.Ide.ItemProperties.iOSTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.2403606dfa3f0c04f3e98cbad742a97b271bac33">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.iOSTableView>
   <MultiItemStartupConfigurations />

@@ -66,6 +66,23 @@ namespace iOSTableView
         #region PHOTO_ACTIONS
         void OnCamera(UIAlertAction obj)
         {
+            _imageController = new UIImagePickerController
+            {
+                SourceType = UIImagePickerControllerSourceType.Camera
+            };
+
+            _imageController.FinishedPickingMedia += OnCameraImageFinished;
+            _imageController.Canceled += OnGalleryCancelled;
+
+            try
+            {
+                PresentViewController(_imageController, true, null);
+
+            }
+            catch (Exception ex)
+            {
+                return;
+            }
         }
 
         void OnGallery(UIAlertAction obj)
@@ -85,6 +102,20 @@ namespace iOSTableView
         #endregion
 
         #region IMAGE_PICKER_ACTIONS
+        void OnCameraImageFinished(object sender, UIImagePickerMediaPickedEventArgs e)
+        {
+            NSUrl referenceUrl = e.Info[new NSString("UIImagePickerControllerReferenceURL")] as NSUrl;
+
+            using (UIImage originalImage = e.Info[UIImagePickerController.OriginalImage] as UIImage)
+            {
+                if (originalImage == null) return;
+
+                PhotoImg.Image = originalImage;
+            }
+
+            _imageController.DismissViewController(true, null);
+        }
+
         void OnGalleryImageFinished(object sender, UIImagePickerMediaPickedEventArgs e)
         {
             var imageType = e.Info[UIImagePickerController.MediaType]?.ToString();
@@ -110,16 +141,12 @@ namespace iOSTableView
 
         void OnGalleryCancelled(object sender, EventArgs e)
         {
-            _imageController.FinishedPickingMedia -= OnGalleryImageFinished;
+            //_imageController.FinishedPickingMedia -= OnCameraImageFinished;
+            //_imageController.FinishedPickingMedia -= OnGalleryImageFinished;
             _imageController.Canceled -= OnGalleryCancelled;
 
             _imageController.DismissViewController(true, null);
         }
         #endregion
-
-
-
-
-
     }
 }

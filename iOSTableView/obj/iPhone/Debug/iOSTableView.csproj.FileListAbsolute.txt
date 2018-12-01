@@ -1,0 +1,12 @@
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/bin/iPhone/Debug/iOSTableView.exe
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/bin/iPhone/Debug/iOSTableView.pdb
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/actool/_PartialAppManifest.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/actool/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/coremlc/_PartialAppManifest.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/optimized/photo.png
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/optimized/
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/iOSTableView.csproj.CoreCompileInputs.cache
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/iOSTableView.exe
+/Users/eduardomedina/Documents/GitHub/XamariniOSModule/iOSTableView/obj/iPhone/Debug/iOSTableView.pdb
